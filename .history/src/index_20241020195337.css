@@ -1,7 +1,8 @@
+/* src/index.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #abdcbc;
-  margin: 0;
+  background-color: #f0f4f8;
+  margin: 6rem;
   padding: 0;
 }
 
@@ -42,11 +43,12 @@ h2 {
 }
 
 .task-item.completed {
+  background-color: #d1f7c4;
   text-decoration: line-through;
 }
 
 .task-item button {
-  background-color: #f600d9;
+  background-color: #ff4d4d;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -55,7 +57,7 @@ h2 {
 }
 
 .task-item button:hover {
-  background-color: #eb73e3;
+  background-color: #ff3333;
 }
 
 input[type="text"] {
@@ -66,7 +68,7 @@ input[type="text"] {
 }
 
 button {
-  background-color: #f600d9;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -75,5 +77,11 @@ button {
 }
 
 button:hover {
-  background-color: #eb73e3;
+  background-color: #45a049;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

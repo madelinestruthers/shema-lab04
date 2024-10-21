@@ -1,6 +1,7 @@
+/* src/index.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #abdcbc;
+  background-color: #f0f4f8;
   margin: 0;
   padding: 0;
 }
@@ -75,5 +76,5 @@ button {
 }
 
 button:hover {
-  background-color: #eb73e3;
+  background-color: #c961be;
 }

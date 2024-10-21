@@ -1,6 +1,7 @@
+/* src/index.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #abdcbc;
+  background-color: #f0f4f8;
   margin: 0;
   padding: 0;
 }
@@ -42,7 +43,7 @@ h2 {
 }
 
 .task-item.completed {
-  text-decoration: line-through;
+  text-decoration: none;
 }
 
 .task-item button {

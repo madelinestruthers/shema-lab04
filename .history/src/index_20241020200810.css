@@ -1,6 +1,7 @@
+/* src/index.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #abdcbc;
+  background-color: #f0f4f8;
   margin: 0;
   padding: 0;
 }
@@ -57,7 +58,9 @@ h2 {
 .task-item button:hover {
   background-color: #eb73e3;
 }
-
+.remove-button-clicked{
+  text-decoration: none;
+}
 input[type="text"] {
   width: 80%;
   padding: 10px;

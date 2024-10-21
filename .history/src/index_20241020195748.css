@@ -1,6 +1,7 @@
+/* src/index.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #abdcbc;
+  background-color: #f0f4f8;
   margin: 0;
   padding: 0;
 }
@@ -42,11 +43,12 @@ h2 {
 }
 
 .task-item.completed {
+  background-color: #d1f7c4;
   text-decoration: line-through;
 }
 
 .task-item button {
-  background-color: #f600d9;
+  background-color: #ff4d4d;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -55,7 +57,7 @@ h2 {
 }
 
 .task-item button:hover {
-  background-color: #eb73e3;
+  background-color: #ff3333;
 }
 
 input[type="text"] {
@@ -66,14 +68,14 @@ input[type="text"] {
 }
 
 button {
-  background-color: #f600d9;
+  background-color: #ff05bc;
   color: white;
   border: none;
   padding: 10px 15px;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #eb73e3;
+  background-color: #c961be;
 }
